@@ -1,0 +1,14 @@
+.album{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid red;
+    justify-items: baseline;
+    &>div{
+        margin: 4px 2px;
+    }
+    &>div>img{
+        width: 150px !important;
+        border: 1px solid blue;
+    }
+}
